@@ -3,9 +3,9 @@ import { vitepressDemoPlugin } from 'vitepress-demo-plugin';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Chunfeng-z Project",
+  title: "Chunfeng-z Blog",
   // description是用于SEO的，会显示在meta标签中
-  description: "A VitePress Site Test",
+  description: "这里是 Chunfeng-z 的博客，我将在这里记录一些前端开发的心得和技术分享。",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
