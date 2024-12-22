@@ -6,6 +6,7 @@ export default defineConfig({
   title: "Chunfeng-z Blog",
   // description是用于SEO的，会显示在meta标签中
   description: "这里是 Chunfeng-z 的博客，我将在这里记录一些前端开发的心得和技术分享。",
+  head: [['link', { rel: 'icon', href: '/blog/blogger.svg' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -22,7 +23,6 @@ export default defineConfig({
         ]
       }
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
